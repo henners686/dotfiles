@@ -1,0 +1,36 @@
+window {
+  background-color: rgba(40, 40, 40, 0.6); /* Glassy semi-transparent */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Soft frosty edge */
+  padding: 5px;
+}
+
+#box {
+  padding: 0px 0px;
+}
+
+
+
+button, image {
+  background: none;
+  border: none;
+  color: #ccc;
+}
+
+button {
+  padding: 6px;
+  margin: 8px;
+  border-radius: 12px;
+  /*box-shadow: inset 0 0 2px rgba(255,255,255,0.1), 0 2px 4px rgba(0,0,0,0.2);*/
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+}
+
+image {
+  margin: 1px;
+  opacity: 0.9;
+}
+

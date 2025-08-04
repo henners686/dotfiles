@@ -1,0 +1,10 @@
+{
+  "custom/windscribe": {
+    "icon": "",
+    "label": "Windscribe Vpn",
+    "tooltip": "This is a test module",
+    "interval": 1000,
+    "execute": "echo '{\"alt\": \"test\", \"label\": \"Hello\"}'"
+  }
+}
+
