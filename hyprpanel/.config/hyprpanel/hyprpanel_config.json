@@ -1,0 +1,153 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.name": "JetBrainsMonoNL Nerd Font Propo",
+  "theme.font.label": "JetBrainsMonoNL Nerd Font Propo",
+  "theme.font.size": "1.2rem",
+  "theme.bar.menus.enableShadow": true,
+  "scalingPriority": "hyprland",
+  "menus.dashboard.stats.enabled": true,
+  "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
+  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.shortcuts.left.shortcut1.command": "brave",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Brave",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "updates",
+        "custom/windscribe",
+        "cava"
+      ],
+      "middle": [
+        "workspaces"
+      ],
+      "right": [
+        "volume",
+        "dashboard",
+        "battery",
+        "network",
+        "bluetooth",
+        "systray",
+        "weather",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.floating": false,
+  "theme.bar.enableShadow": false,
+  "bar.launcher.autoDetectIcon": false,
+  "theme.bar.margin_sides": "0.5em",
+  "theme.bar.outer_spacing": "0em",
+  "theme.notification.enableShadow": true,
+  "theme.bar.opacity": 30,
+  "theme.bar.buttons.monochrome": false,
+  "menus.clock.weather.location": "Bengaluru",
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": false,
+  "theme.bar.buttons.modules.updates.enableBorder": false,
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.bar.buttons.modules.worldclock.enableBorder": false,
+  "theme.bar.buttons.battery.enableBorder": false,
+  "bar.clock.format": "%e/%m/%Y %k:%M:%S ",
+  "bar.clock.icon": "󰸗",
+  "bar.clock.showTime": true,
+  "theme.bar.buttons.clock.enableBorder": false,
+  "theme.bar.buttons.media.enableBorder": false,
+  "bar.media.show_active_only": true,
+  "bar.notifications.show_total": true,
+  "bar.notifications.hideCountWhenZero": true,
+  "theme.bar.menus.monochrome": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_icons": false,
+  "wallpaper.enable": true,
+  "wallpaper.pywal": false,
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.weather.key": "1179ea2c78eb4847977150513251606",
+  "bar.customModules.updates.label": true,
+  "bar.customModules.updates.autoHide": true,
+  "bar.customModules.weather.label": true,
+  "theme.bar.buttons.modules.cava.enableBorder": false,
+  "bar.customModules.cava.showIcon": true,
+  "bar.customModules.cava.showActiveOnly": true,
+  "bar.customModules.cava.icon": "",
+  "bar.customModules.cava.bars": 10,
+  "theme.bar.buttons.modules.cava.spacing": "0.5em",
+  "bar.customModules.weather.leftClick": "",
+  "bar.customModules.updates.rightClick": "",
+  "bar.customModules.cava.leftClick": "menu:media",
+  "notifications.ignore": [],
+  "bar.customModules.updates.leftClick": "~/.scripts/update_monitor.py",
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "theme.bar.buttons.workspaces.smartHighlight": true,
+  "bar.workspaces.applicationIconMap": [
+    [
+      "kitty",
+      "󰄛",
+      "Kitty Terminal"
+    ],
+    [
+      "firefox",
+      "󰈹",
+      "Firefox"
+    ],
+    [
+      "microsoft-edge.*",
+      "󰇩",
+      "Edge"
+    ],
+    [
+      "discord",
+      "",
+      "Discord"
+    ],
+    [
+      "org.kde.dolphin",
+      "",
+      "Dolphin"
+    ]
+  ],
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.workspaceIconMap": {},
+  "bar.windowtitle.custom_title": true,
+  "menus.dashboard.powermenu.avatar.image": "/home/henry/Pictures/Loid_Forger_Manga_Infobox.webp",
+  "bar.battery.hideLabelWhenFull": false,
+  "menus.dashboard.powermenu.logout": "logout.sh",
+  "menus.dashboard.powermenu.shutdown": "shutdown.sh",
+  "theme.bar.buttons.modules.weather.enableBorder": false,
+  "bar.customModules.weather.unit": "imperial"
+}
